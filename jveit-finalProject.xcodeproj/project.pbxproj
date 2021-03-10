@@ -21,6 +21,7 @@
 		8E8AFC8E25F0993200EE2E21 /* userData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AFC8D25F0993200EE2E21 /* userData.swift */; };
 		8E8AFC9125F09D2C00EE2E21 /* shoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AFC9025F09D2C00EE2E21 /* shoppingCartViewController.swift */; };
 		8E8AFC9425F1E87500EE2E21 /* blogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AFC9325F1E87500EE2E21 /* blogViewController.swift */; };
+		8E8AFC9725F7362000EE2E21 /* quartzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AFC9625F7361F00EE2E21 /* quartzView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		8E8AFC8D25F0993200EE2E21 /* userData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userData.swift; sourceTree = "<group>"; };
 		8E8AFC9025F09D2C00EE2E21 /* shoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingCartViewController.swift; sourceTree = "<group>"; };
 		8E8AFC9325F1E87500EE2E21 /* blogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blogViewController.swift; sourceTree = "<group>"; };
+		8E8AFC9625F7361F00EE2E21 /* quartzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quartzView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				8E8AFC6725E9235200EE2E21 /* SceneDelegate.swift */,
 				8E8AFC6925E9235200EE2E21 /* ViewController.swift */,
 				8E8AFC6B25E9235200EE2E21 /* Main.storyboard */,
+				8E8AFC9625F7361F00EE2E21 /* quartzView.swift */,
 				8E8AFC9325F1E87500EE2E21 /* blogViewController.swift */,
 				8E8AFC9025F09D2C00EE2E21 /* shoppingCartViewController.swift */,
 				8E8AFC8D25F0993200EE2E21 /* userData.swift */,
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E8AFC7B25E9297100EE2E21 /* mainMenuViewController.swift in Sources */,
+				8E8AFC9725F7362000EE2E21 /* quartzView.swift in Sources */,
 				8E8AFC8525EF4C2900EE2E21 /* TableViewController.swift in Sources */,
 				8E8AFC8E25F0993200EE2E21 /* userData.swift in Sources */,
 				8E8AFC9425F1E87500EE2E21 /* blogViewController.swift in Sources */,

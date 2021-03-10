@@ -257,13 +257,12 @@
         <!--Main Menu-->
         <scene sceneID="g55-Sy-US5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mzZ-f6-TD7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="uwW-Aj-kju" customClass="mainMenuViewController" customModule="jveit_finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wrz-IO-RxR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="k09-AN-hsK">
+                            <view multipleTouchEnabled="YES" contentMode="scaleToFill" id="k09-AN-hsK" customClass="quartzView" customModule="jveit_finalProject" customModuleProvider="target">
                                 <rect key="frame" x="-1" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -357,6 +356,7 @@
                         <outlet property="welcomeLabel" destination="Kw4-g2-RK2" id="IiX-l9-QG6"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mzZ-f6-TD7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1975.36231884058" y="-385.04464285714283"/>
         </scene>
